@@ -69,7 +69,7 @@ Purpose
 
 This repository is created to practice HTML concepts and build simple web pages and mini projects as part of my web development learning.
 
-## 👩‍💻 Author
+Author
 
 **Medolin Christiyana J.**
 
