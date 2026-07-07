@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+    <title>Canvas</title>
+</head>
+<body>
+    <canvas id="mycanvas" width="200px" height="100px" style="border: 2px solid black;"></canvas>
+</body>
+<script>
+    var c=document.getElementById("mycanvas");
+    var ctx=getContext("2D");
+    ctx.moveTo(0,0);
+    ctx.lineTo(200,100);
+    ctx.stroke();
+</script>
+</html>

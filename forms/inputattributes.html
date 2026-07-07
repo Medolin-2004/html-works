@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Page Title -->
+    <title>Input Attributes</title>
+
+</head>
+<body>
+    <form>
+        <!-- Value Attribute -->
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" value="India">
+        <br><br>
+        <!-- Size Attribute -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" size="30">
+        <br><br>
+        <!-- Pattern Attribute (Only 10 digits allowed) -->
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone"
+               pattern="[0-9]{10}"
+               placeholder="Enter 10-digit number">
+        <br><br>
+        <!-- Required Attribute -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <!-- Readonly Attribute -->
+        <label for="college">College:</label>
+        <input type="text" id="college" name="college"
+               value="ABC Engineering College" readonly>
+        <br><br>
+        <!-- Maxlength Attribute -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"
+               maxlength="8">
+        <br><br>
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

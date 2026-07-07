@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio & College Tech Fest Website</title>
+</head>
+<body style="text-align: center;">
+    <header><h1>ABC Engineering College</h1></header>
+    <p>National Level Technical Symposium 2025</p>
+<!--navigation-->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Events</a> |
+        <a href="#">Gallery</a> |
+        <a href="#">Resgistration</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <!--about-->
+    <section>
+        <h1>About Our College</h1>
+        <p>ABC Engineering College is one of the leading engineering institutions in Tamil Nadu. The college provides quality education, modern laboratories, experienced faculty members, and excellent placement opportunities. Every year, the college conducts a National Level Technical Symposium to encourage innovation and creativity among students.</p>
+    </section>
+
+     <!--event-->
+     <h3>Technical Events</h3>
+     <ul style="display:inline-block; text-align:left;">
+        <li>Paper Presentation</li>
+        <li>Web Designing</li>
+        <li>Coding Contest</li>
+        <li>Debugging</li>
+        <li>Quiz Competition</li>
+     </ul>
+     <h3>Non-Technical Events</h3>
+     <ul style="display:inline-block; text-align:left;">
+        <li>Photography</li>
+        <li>Meme Creation</li>
+        <li>Treasure Hunt</li>
+        <li>Dance</li>
+        <li>Singing</li>
+     </ul>
+     <!--student coordinates table-->
+     <br><br>
+     <table border="1" style="display: inline-block; text-align: left;">
+        <caption>Student Coordinators Table</caption>
+        <tr>
+            <th>Student Name</th>
+            <th>Department</th>
+            <th>Year</th>
+            <th>Mobile</th>
+        </tr>
+        <tr>
+            <td>Medolin Christiyana</td>
+            <td rowspan="4">IT</td>
+            <td rowspan="4">final</td>
+            <td>9876543210</td>
+        </tr>
+        <tr>
+            <td>Sherin Rickshiya</td>
+            <td>9876543211</td>
+        </tr>
+        <tr>
+            <td>Mary Nirmala</td>
+            <td>9876543212</td>
+        </tr>
+        <tr>
+            <td>Dani priya</td>
+            <td>9876543213</td>
+        </tr>
+     </table>
+
+     <!--registration form-->
+     <hr>
+    <hr>
+
+<form>
+    <fieldset style="display:inline-block; text-align:left;">
+        <legend>Registration Form</legend>
+
+        <table>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" placeholder="Enter a name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" placeholder="Enter an email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="pass">Password:</label></td>
+                <td><input type="password" id="pass" placeholder="Enter a password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="number">Phone Number:</label></td>
+                <td><input type="tel" id="number" placeholder="Enter 10 digits"></td>
+            </tr>
+
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" id="age" min="18" max="60"></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="department">Department:</label></td>
+                <td>
+                    <select id="department" name="department">
+                        <option value="">Select Department</option>
+                        <option value="cse">CSE</option>
+                        <option value="it">IT</option>
+                        <option value="mech">MECH</option>
+                        <option value="ece">ECE</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Interested Events:</td>
+                <td>
+                    <input type="checkbox" id="coding" name="events" value="coding">
+                    <label for="coding">Coding</label>
+
+                    <input type="checkbox" id="paper" name="events" value="paper">
+                    <label for="paper">Paper</label>
+
+                    <input type="checkbox" id="quiz" name="events" value="quiz">
+                    <label for="quiz">Quiz</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td>
+                    <textarea id="address" rows="4" cols="30" placeholder="Enter your address"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </fieldset>
+</form>
+<br>
+     <img src="images/sympo.png" alt="sympo img" width="100%" height="50%">
+
+     <!--College Facilities-->
+     <h3>College Facilities</h3>
+     <ol style="display: inline-block; text-align: center;">
+        <li>Smart Classrooms</li>
+        <li>Computer Labs</li>
+        <li>Library</li>
+        <li>Hostel</li>
+        <li>Sports</li>
+     </ol>
+
+     <dl>
+        <dt>Computer Lab</dt>
+        <dd>Modern systems with internet facility.</dd>
+     </dl>
+     <dl>
+        <dt>Library</dt>
+        <dd>More than 50,000 books are available.</dd>
+     </dl>
+
+     <footer>© 2025 ABC Engineering College</footer>
+</body>
+</html>
