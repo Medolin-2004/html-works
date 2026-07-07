@@ -1,12 +1,12 @@
-# HTML Works
+HTML Works
 
 A collection of HTML5 practice programs and mini web projects created during my web development learning journey.
 
-## 📖 About
+About
 
 This repository contains beginner-friendly HTML examples and mini projects covering the fundamental concepts of HTML5. It is intended for learning, practicing, and understanding basic web development.
 
-## ✨ Features
+Features
 
 - HTML Basics
 - Text Formatting
@@ -21,7 +21,7 @@ This repository contains beginner-friendly HTML examples and mini projects cover
 - Favicon
 - Mini Website Projects
 
-## 📂 Project Structure
+Project Structure
 
 ```text
 HTML/
@@ -60,13 +60,12 @@ HTML/
 ├── index.html
 ├── p.html
 └── textformatting.html
-```
 
-## 🛠️ Technologies Used
+Technologies Used
 
 - HTML5
 
-## 🎯 Purpose
+Purpose
 
 This repository is created to practice HTML concepts and build simple web pages and mini projects as part of my web development learning.
 
